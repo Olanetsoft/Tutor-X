@@ -53,6 +53,8 @@ export default class Layout extends React.Component {
     if (this.props.className) className += ` ${this.props.className}`
     if (this.state.scrolled) className += " navbar-scrolled"
 
+    var d = new Date();
+    var n = d.getFullYear();
     return (
       <div
         className={className}
@@ -62,7 +64,7 @@ export default class Layout extends React.Component {
         <main>{this.props.children}</main>
         <footer className="bg-light py-5">
           <div className="container">
-            <div className="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+            <div className="small text-center text-muted">Copyright &copy; {n} - Tutor-X</div>
           </div>
         </footer>
       </div>

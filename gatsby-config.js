@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: `/gatsby-creative`,
+  pathPrefix: `/`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Tutor-X`,
+    description: `The Largest Open Source Platform for Students and Knowledge Seekers!`,
+    author: `@tutorx`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

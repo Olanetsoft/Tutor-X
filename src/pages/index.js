@@ -87,6 +87,34 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -178,8 +206,8 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section bg-dark text-white">
           <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+            <h2 className="mb-4">Free Download at Start!</h2>
+            <a className="btn btn-light btn-xl" href="#">Download Now!</a>
           </div>
         </section>
 
