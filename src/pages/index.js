@@ -35,20 +35,20 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home"/>
+        <SEO title="Home" />
         <section className="page-section bg-primary" id="about">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">We've got what you need!</h2>
-                <hr className="divider light my-4"/>
+                <hr className="divider light my-4" />
                 <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
+                and
+                running in no time! Choose one of our open source, free to download, and easy to use themes! No
+                strings
                   attached!</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
-                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+                  onClick={Scroller.handleAnchorScroll}>Get Started!</a>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default class IndexPage extends React.Component {
         <section className="page-section" id="services">
           <div className="container">
             <h2 className="text-center mt-0">At Your Service</h2>
-            <hr className="divider my-4"/>
+            <hr className="divider my-4" />
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
@@ -124,7 +124,7 @@ export default class IndexPage extends React.Component {
             <div className="row no-gutters">
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
-                  <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
+                  <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       Category
@@ -137,7 +137,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
-                  <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
+                  <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       Category
@@ -150,7 +150,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/3.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
-                  <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
+                  <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       Category
@@ -163,7 +163,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="images/portfolio/fullsize/4.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
-                  <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
+                  <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       Category
@@ -176,7 +176,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
-                  <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
+                  <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       Category
@@ -189,7 +189,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
-                  <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
+                  <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
                       Category
@@ -216,9 +216,9 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
-                <hr className="divider my-4"/>
+                <hr className="divider my-4" />
                 <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
-                  email
+                email
                   and we will get back to you as soon as possible!</p>
               </div>
             </div>
@@ -235,7 +235,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
         <PortfolioModal show={this.state.modalShow} onHide={() => this.setModal(false, 0)}>
-          <PortfolioCarousel images={this.props.data.images.edges} current={this.state.modalCurrent}/>
+          <PortfolioCarousel images={this.props.data.images.edges} current={this.state.modalCurrent} />
         </PortfolioModal>
       </Layout>
     )
