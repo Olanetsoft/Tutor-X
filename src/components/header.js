@@ -48,8 +48,8 @@ export default class Header extends React.Component {
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white-75 font-weight-light mb-5">The Largest Open Source Platform for Students and Knowledge Seekers!🏾🎓 !</p>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Download on Android</a>&nbsp;&nbsp;&nbsp;
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Download on App Store</a>
+                <a className="btn btn-primary p-4 m-2 btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Download on <i class="fa fa-play" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+                <a className="btn btn-primary p-4 m-2 btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Download on <i className="fa fa-apple" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
