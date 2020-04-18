@@ -42,14 +42,14 @@ export default class Header extends React.Component {
         <header className="masthead">
           <div className="container h-100">
             <div className="row h-100 align-items-center justify-content-center text-center">
-              <div className="col-lg-10 align-self-end">
-                <h1 className="text-uppercase text-white font-weight-bold">Tutor-X</h1>
+              <div className="col-lg-10 p-4 align-self-end">
+                <h1 className="text-uppercase p-4 text-white font-weight-bold">Tutor-X</h1>
                 <hr className="divider my-4" />
               </div>
-              <div className="col-lg-8 align-self-baseline">
-                <p className="text-white-75 font-weight-light mb-5">The Largest Open Source Platform for Students and Knowledge Seekers!🏾🎓 !</p>
-                <a className="btn btn-primary p-4 m-2 btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Download Now <i class="fab fa-google-play"></i></a>&nbsp;&nbsp;&nbsp;
-                <a className="btn btn-primary p-4 m-2 btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Download Now <i class="fab fa-app-store"></i></a>
+              <div className="col-lg-8 p-2 align-self-baseline">
+                <p className="text-white-75 p-2 font-weight-light mb-5">The Largest Open Source Platform for Students and Knowledge Seekers!🏾🎓 !</p>
+                <a className="btn btn-primary p-3 m-2 btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-android fa-2x"></i>  Download<br /> <small>Android version</small></a>&nbsp;&nbsp;&nbsp;
+                <a className="btn btn-primary p-3 m-2 btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-apple fa-2x"></i>Download<br /> <small>iOs version </small></a>
               </div>
             </div>
           </div>
