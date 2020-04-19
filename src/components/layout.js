@@ -64,7 +64,7 @@ export default class Layout extends React.Component {
         <main>{this.props.children}</main>
         <footer className="bg-dark py-4">
           <div className="container">
-            <div className="small text-center text-muted">Copyright &copy; {n} - Tutor-X &nbsp;&nbsp;&nbsp;&nbsp;<span>Built by <a href="https://twitter.com/olanetsoft" target="_blank">olanetsoft</a></span></div>
+            <div className="small text-center text-muted">Copyright &copy; {n} - Tutor-X &nbsp;&nbsp;&nbsp;&nbsp;<span>Built by <a href="https://twitter.com/olanetsoft" target="_blank"  rel="noopener">olanetsoft</a></span></div>
           </div>
         </footer>
       </div>
