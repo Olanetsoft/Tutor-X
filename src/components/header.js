@@ -3,7 +3,7 @@ import Scrollspy from "react-scrollspy"
 import { Navbar, Nav } from "react-bootstrap"
 import Scroller from './scroller'
 
-import imgLogo from './tutorLogo.png';
+import imgLogo from '../images/tutorLogo.png';
 
 export default class Header extends React.Component {
   constructor(props) {
