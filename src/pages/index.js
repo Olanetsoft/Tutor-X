@@ -8,6 +8,26 @@ import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
 
+//Import all icon
+import ArtImg from "../images/art/art.png"
+import AdminImg from "../images/art/admin.png"
+import AgricImg from "../images/art/agric.png"
+import BioImg from "../images/art/bio.png"
+import DentImg from "../images/art/dentistry.png"
+import DevImg from "../images/art/dev.png"
+import EduImg from "../images/art/edu.png"
+import EngrImg from "../images/art/env.png"
+import EnvImg from "../images/art/engr.png"
+import HealthImg from "../images/art/health.png"
+import LawImg from "../images/art/law.png"
+import MedImg from "../images/art/med.png"
+import PharmaImg from "../images/art/pharma.png"
+import PhyImg from "../images/art/physical.png"
+import SoilImg from "../images/art/soil.png"
+import VEtImg from "../images/art/vet.png"
+
+
+
 export default class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -61,112 +81,128 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-gem text-primary mb-4"></i> */}
+                  <img src={ArtImg} alt="art"/>
                   <h3 className="h4 mb-2">Arts</h3>
                   <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i> */}
+                  <img src={AgricImg} alt="agric"/>
                   <h3 className="h4 mb-2">Agricultural Sciences</h3>
                   <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-globe text-primary mb-4"></i> */}
+                  <img src={AdminImg} alt="admin"/>
                   <h3 className="h4 mb-2">Administration & Management</h3>
                   <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={BioImg} alt="bio"/>
                   <h3 className="h4 mb-2">Biological Sciences</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={DentImg} alt="dent"/>
                   <h3 className="h4 mb-2">Dentistry</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={DevImg} alt="dev"/>
                   <h3 className="h4 mb-2">Developers</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={EduImg} alt="edu"/>
                   <h3 className="h4 mb-2">Education Courses</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={EngrImg} alt="engr"/>
                   <h3 className="h4 mb-2">Engineering Courses</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={EnvImg} alt="env"/>
                   <h3 className="h4 mb-2">Environmental Services</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={LawImg} alt="law"/>
                   <h3 className="h4 mb-2">Law</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={MedImg} alt="med"/>
                   <h3 className="h4 mb-2">Medical Sciences</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={HealthImg} alt="health"/>
                   <h3 className="h4 mb-2">Health Science & Technology</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={PharmaImg} alt="pharma"/>
                   <h3 className="h4 mb-2">Pharmaceutical Sciences</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={PhyImg} alt="physical"/>
                   <h3 className="h4 mb-2">Physical Sciences</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={SoilImg} alt="soil"/>
                   <h3 className="h4 mb-2">Soil Sciences</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  {/* <i className="fas fa-4x fa-heart text-primary mb-4"></i> */}
+                  <img src={VEtImg} alt="vet"/>
                   <h3 className="h4 mb-2">Veterinary Medicine</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
