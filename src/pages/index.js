@@ -375,10 +375,10 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section bg-dark text-white">
+        <section className="page-section text-white p-4" style={{backgroundColor: "#8FBF4D"}}>
           <div className="container text-center">
             <h2 className="mb-4">Free Download at Start!</h2>
-            <a className="btn btn-light btn-xl" href="#">Download Now!</a>
+            <a className="btn btn-light btn-xl" href="https://play.google.com/store/apps/details?id=tutor.x">Download Now!</a>
           </div>
         </section>
 
@@ -388,7 +388,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4" />
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
+                <p className="text-muted mb-5">Ready to know more about the platform? Give us a call or send us an
                 email
                   and we will get back to you as soon as possible!</p>
               </div>
