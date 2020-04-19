@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `Tutor-X`,
     description: `The Largest Open Source Platform for Students and Knowledge Seekers!`,
-    author: `@tutorx`,
+    author: `@olanetsoft`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
