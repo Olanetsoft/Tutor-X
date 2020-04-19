@@ -1,7 +1,8 @@
 // Base styling for the navbar
 #mainNav {
 	box-shadow: $box-shadow;
-	background-color: $white;
+	background-color: #2F4F4F;
+	// background-color: $white;
 	transition: background-color 0.2s ease;
 	.navbar-brand {
 		font-family: $font-family-sans-serif;
@@ -29,7 +30,7 @@
 			}
 		}
 	}
-	@include media-breakpoint-up(lg) {
+	@include media-breakpoint-up(sm) {
 		// Base styling for the navbar - screen sizes greater than the large breakpoint
 		box-shadow: none;
 		background-color: transparent;
@@ -58,7 +59,7 @@
 	}
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(sm) {
 	// Navbar styling applied when the page is scrolled
 	.site-container.navbar-scrolled #mainNav {
 		box-shadow: $box-shadow;
