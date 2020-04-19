@@ -60,11 +60,49 @@ export default class Layout extends React.Component {
         className={className}
         ref={this.siteContainer}
         id="page-top">
-        <Header/>
+        <Header />
         <main>{this.props.children}</main>
-        <footer className="bg-dark py-4">
+        <footer className="bg-dark p-4">
+          <div class="row">
+
+            <div className="col-md-12 p-2 text-center">
+              <div className="mb-5 flex-center">
+
+
+                <a className="fb-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+
+                <a className="tw-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+
+                <a className="gplus-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+
+                <a className="li-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+
+                <a className="ins-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+
+                <a className="pin-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
           <div className="container">
-            <div className="small text-center text-muted">Copyright &copy; {n} - Tutor-X &nbsp;&nbsp;&nbsp;&nbsp;<span>Built by <a href="https://twitter.com/olanetsoft" target="_blank"  rel="noopener">olanetsoft</a></span></div>
+
+
+
+            <div className="small text-center text-muted">Copyright &copy; {n} - Tutor-X &nbsp;&nbsp;&nbsp;&nbsp;<span>Built by <a href="https://twitter.com/olanetsoft"
+              target="_blank" rel="noopener noreferrer">olanetsoft</a></span></div>
           </div>
         </footer>
       </div>
