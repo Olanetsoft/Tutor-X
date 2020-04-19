@@ -7,7 +7,7 @@ header.masthead {
 	background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../images/mastbg.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: cover;
 	h1 {
 		font-size: 2.25rem;
