@@ -3,6 +3,8 @@ import Scrollspy from "react-scrollspy"
 import { Navbar, Nav } from "react-bootstrap"
 import Scroller from './scroller'
 
+import imgLogo from './tutorLogo.png';
+
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -15,7 +17,7 @@ export default class Header extends React.Component {
         <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
           collapseOnSelect={true}>
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}>Tutor-X</a>
+            <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}><img src={imgLogo} style={{height: "40px", width: "100px"}} alt="Tutor-X" /></a>
             <Navbar.Toggle aria-controls="navbarResponsive" />
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">
@@ -48,7 +50,7 @@ export default class Header extends React.Component {
               </div>
               <div className="col-lg-8 p-2 align-self-baseline">
                 <p className="text-white-75 p-2 font-weight-light mb-5">The Largest Open Source Platform for Students and Knowledge Seekers!🏾🎓 </p>
-                <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-android fa-2x"></i>  Download<br /> <small>Android Version</small></a>&nbsp;&nbsp;&nbsp;
+                <a className="btn btn-primary m-2 rounded-0 btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-android fa-2x"></i>  Download<br /> <small>Android Version</small></a>&nbsp;&nbsp;&nbsp;
                 <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-apple fa-2x"></i>Download<br /> <small>iOs Version </small></a>
               </div>
             </div>
