@@ -54,67 +54,124 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section" id="services">
+        <section className="page-section py-5" id="services">
           <div className="container">
-            <h2 className="text-center mt-0">At Your Service</h2>
+            <h2 className="text-center">Academy</h2>
             <hr className="divider my-4" />
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
+                  <h3 className="h4 mb-2">Arts</h3>
                   <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
+                  <h3 className="h4 mb-2">Agricultural Sciences</h3>
                   <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
+                  <h3 className="h4 mb-2">Administration & Management</h3>
                   <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <h3 className="h4 mb-2">Biological Sciences</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <h3 className="h4 mb-2">Dentistry</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <h3 className="h4 mb-2">Developers</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <h3 className="h4 mb-2">Education Courses</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
+                  <h3 className="h4 mb-2">Engineering Courses</h3>
                   <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
               </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Environmental Services</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Law</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Medical Sciences</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Health Science & Technology</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Pharmaceutical Sciences</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Physical Sciences</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Soil Sciences</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Veterinary Medicine</h3>
+                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -225,7 +282,7 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>+1 (202) 555-0149</div>
+                <div>+2348143166543</div>
               </div>
               <div className="col-lg-4 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
