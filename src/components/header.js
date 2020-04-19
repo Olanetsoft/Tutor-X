@@ -14,7 +14,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-" id="mainNav" expand="lg"
+        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
           collapseOnSelect={true}>
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}><img src={imgLogo} style={{height: "40px", width: "100px"}} alt="Tutor-X" /></a>
