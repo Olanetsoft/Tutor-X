@@ -216,80 +216,158 @@ export default class IndexPage extends React.Component {
           <div className="container-fluid p-0">
             <div className="row no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpeg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Click to View
                     </div>
-                    <div className="project-name">
+                    {/* <div className="project-name">
                       Project Name
-                    </div>
+                    </div> */}
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/2.jpeg" onClick={this.handlePortfolioClick.bind(this, 1)}>
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
+                  <div className="project-category text-white-50">
+                      Click to View
                     </div>
-                    <div className="project-name">
+                    {/* <div className="project-name">
                       Project Name
-                    </div>
+                    </div> */}
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/3.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/3.jpeg" onClick={this.handlePortfolioClick.bind(this, 2)}>
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
+                  <div className="project-category text-white-50">
+                      Click to View
                     </div>
-                    <div className="project-name">
+                    {/* <div className="project-name">
                       Project Name
-                    </div>
+                    </div> */}
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="images/portfolio/fullsize/4.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
+                <a className="portfolio-box" href="images/portfolio/fullsize/4.jpeg" onClick={this.handlePortfolioClick.bind(this, 3)}>
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
+                  <div className="project-category text-white-50">
+                      Click to View
                     </div>
-                    <div className="project-name">
+                    {/* <div className="project-name">
                       Project Name
-                    </div>
+                    </div> */}
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpeg" onClick={this.handlePortfolioClick.bind(this, 4)}>
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
+                  <div className="project-category text-white-50">
+                      Click to View
                     </div>
-                    <div className="project-name">
+                    {/* <div className="project-name">
                       Project Name
-                    </div>
+                    </div> */}
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/6.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid} />
                   <div className="portfolio-box-caption p-3">
-                    <div className="project-category text-white-50">
-                      Category
+                  <div className="project-category text-white-50">
+                      Click to View
                     </div>
-                    <div className="project-name">
+                    {/* <div className="project-name">
                       Project Name
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/7.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid} />
+                  <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">
+                      Click to View
                     </div>
+                    {/* <div className="project-name">
+                      Project Name
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/8.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[7].node.childImageSharp.fluid} />
+                  <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">
+                      Click to View
+                    </div>
+                    {/* <div className="project-name">
+                      Project Name
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/9.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[8].node.childImageSharp.fluid} />
+                  <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">
+                      Click to View
+                    </div>
+                    {/* <div className="project-name">
+                      Project Name
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/10.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[9].node.childImageSharp.fluid} />
+                  <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">
+                      Click to View
+                    </div>
+                    {/* <div className="project-name">
+                      Project Name
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/11.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[10].node.childImageSharp.fluid} />
+                  <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">
+                      Click to View
+                    </div>
+                    {/* <div className="project-name">
+                      Project Name
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/12.jpeg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[11].node.childImageSharp.fluid} />
+                  <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">
+                      Click to View
+                    </div>
+                    {/* <div className="project-name">
+                      Project Name
+                    </div> */}
                   </div>
                 </a>
               </div>
@@ -338,7 +416,7 @@ export default class IndexPage extends React.Component {
 
 export const imageData = graphql`
   query {
-    images: allFile(filter: {relativePath: {glob: "portfolio/fullsize/*.jpg"}}, sort: {fields: name}) {
+    images: allFile(filter: {relativePath: {glob: "portfolio/fullsize/*.jpeg"}}, sort: {fields: name}) {
       edges {
         node {
           childImageSharp {
