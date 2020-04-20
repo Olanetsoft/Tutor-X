@@ -70,28 +70,28 @@ export default class Layout extends React.Component {
 
 
                 <a className="fb-ic" href="https://twitter.com/tutorXApp">
-                  <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
+                  <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">facebook </i>
+                  </a>
 
                 <a className="tw-ic" href="https://twitter.com/tutorXApp">
-                  <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
+                  <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> twitter </i>
+                 </a>
 
-                <a className="gplus-ic" href="https://twitter.com/tutorXApp">
+                {/* <a className="gplus-ic" href="https://twitter.com/tutorXApp">
                   <i className="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
+                </a> */}
 
-                <a className="li-ic" href="https://twitter.com/tutorXApp">
-                  <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
+                {/* <a className="li-ic" href="https://twitter.com/tutorXApp">
+                  <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">  linkedin </i>
+                 </a> */}
 
                 <a className="ins-ic" href="https://twitter.com/tutorXApp">
-                  <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
+                  <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> instagram </i>
+                 </a>
 
-                <a className="pin-ic" href="https://twitter.com/tutorXApp">
+                {/* <a className="pin-ic" href="https://twitter.com/tutorXApp">
                   <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-                </a>
+                </a> */}
               </div>
             </div>
 
