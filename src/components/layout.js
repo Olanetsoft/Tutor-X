@@ -85,7 +85,7 @@ export default class Layout extends React.Component {
                   <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">  linkedin </i>
                  </a> */}
 
-                <a className="ins-ic" href="https://twitter.com/tutorXApp">
+                <a className="ins-ic" href="https://instagram.com/official_tutorX">
                   <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> instagram </i>
                  </a>
 
