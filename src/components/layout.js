@@ -62,19 +62,19 @@ export default class Layout extends React.Component {
         id="page-top">
         <Header />
         <main>{this.props.children}</main>
-        <footer className="bg-dark p-4">
+        <footer className="bg-dark p-2">
           <div class="row">
 
-            <div className="col-md-12 p-2 text-center">
-              <div className="mb-5 flex-center">
+            <div className="col-md-12  text-center">
+              <div className="mb-4 flex-center">
 
 
                 <a className="fb-ic" href="https://twitter.com/tutorXApp">
-                  <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">facebook </i>
+                  <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3">facebook </i>
                   </a>
 
                 <a className="tw-ic" href="https://twitter.com/tutorXApp">
-                  <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> twitter </i>
+                  <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3"> twitter </i>
                  </a>
 
                 {/* <a className="gplus-ic" href="https://twitter.com/tutorXApp">
@@ -86,7 +86,7 @@ export default class Layout extends React.Component {
                  </a> */}
 
                 <a className="ins-ic" href="https://instagram.com/official_tutorX">
-                  <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> instagram </i>
+                  <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3"> instagram </i>
                  </a>
 
                 {/* <a className="pin-ic" href="https://twitter.com/tutorXApp">
