@@ -62,10 +62,12 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">We've got what you need!</h2>
                 <hr className="divider light my-4" />
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                and
-                running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                strings
+                <p className="text-white-50 mb-4">Lorem ipsum dolor sit amet, consectetur 
+                dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e
+                x ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit es
+                se cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum.
                   attached!</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
