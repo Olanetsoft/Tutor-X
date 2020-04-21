@@ -34,7 +34,8 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Merriweather:400,300,300italic,400italic,700,700italic', 'Merriweather+Sans:400,700']
+          families: ['Economica:400,300,300italic,400italic,700,700italic', 'Economica+Sans:400,700']
+          // families: ['Merriweather:400,300,300italic,400italic,700,700italic', 'Merriweather+Sans:400,700']
         }
       }
     },
