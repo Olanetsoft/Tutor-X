@@ -382,7 +382,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section" id="contact">
+        <section className="page-section p-5" id="contact">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
