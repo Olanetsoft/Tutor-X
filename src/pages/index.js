@@ -380,7 +380,7 @@ export default class IndexPage extends React.Component {
         <section className="page-section text-white p-4" style={{backgroundColor: "#8FBF4D"}}>
           <div className="container text-center">
             <h2 className="mb-4">Free Download for Everyone!</h2>
-            <a className="btn btn-light btn-xl" href="https://play.google.com/store/apps/details?id=tutor.x">Download Now!</a>
+            <a className="btn btn-light btn-xl" href="#about" onClick={Scroller.handleAnchorScroll}>Read More</a>
           </div>
         </section>
 
