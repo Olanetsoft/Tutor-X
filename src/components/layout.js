@@ -65,17 +65,17 @@ export default class Layout extends React.Component {
         <footer className="bg-dark p-2">
           <div class="row">
 
-            <div className="col-md-12  text-center">
+            <div className="col-md-12 text-center">
               <div className="mb-4 flex-center">
 
 
                 <a className="fb-ic" href="https://twitter.com/tutorXApp">
                   <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3">facebook </i>
-                  </a>
+                </a>
 
                 <a className="tw-ic" href="https://twitter.com/tutorXApp">
                   <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3"> twitter </i>
-                 </a>
+                </a>
 
                 {/* <a className="gplus-ic" href="https://twitter.com/tutorXApp">
                   <i className="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
@@ -87,7 +87,7 @@ export default class Layout extends React.Component {
 
                 <a className="ins-ic" href="https://instagram.com/official_tutorX">
                   <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3"> instagram </i>
-                 </a>
+                </a>
 
                 {/* <a className="pin-ic" href="https://twitter.com/tutorXApp">
                   <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
