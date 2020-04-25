@@ -52,8 +52,8 @@ export default class Header extends React.Component {
                 <p className="text-white-75 p-2 font-weight-light mb-5">The Largest Open Source Platform for Students and Knowledge Seekers! </p>
                 {/* <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-android fa-2x"></i>  Download<br /> <small>Android Version</small></a>&nbsp;&nbsp;&nbsp;
                 <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-apple fa-2x"></i>Download<br /> <small>iOs Version </small></a> */}
-                <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="https://play.google.com/store/apps/details?id=tutor.x"> <i class="fa fa-android fa-2x"></i>  Download<br /> <small>Android Version</small></a>&nbsp;&nbsp;&nbsp;
-                <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-apple fa-2x"></i>Download<br /> <small>iOs Version </small></a>
+                <a className="btn btn-primary p-3 m-2 rounded-pill btn-xl js-scroll-trigger" href="https://play.google.com/store/apps/details?id=tutor.x"> <i class="fa fa-android fa-2x"></i>  Download<br /> <small>Android Version</small></a>&nbsp;&nbsp;&nbsp;
+                {/* <a className="btn btn-primary p-2 m-2 rounded-pill btn-l js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}> <i class="fa fa-apple fa-2x"></i>Download<br /> <small>iOs Version </small></a> */}
               </div>
             </div>
           </div>
