@@ -31,6 +31,13 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: ``,
+        head: true,
+      }
+    },
+    {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
